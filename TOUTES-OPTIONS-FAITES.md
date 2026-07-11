@@ -2,7 +2,11 @@
 
 ## ✅ RÉSUMÉ COMPLET DES AMÉLIORATIONS
 
+<<<<<<< HEAD
 
+=======
+Vous avez demandé **TOUTES LES OPTIONS**, et c'est fait! Voici tout ce qui a été créé:
+>>>>>>> 35505e9c07aca72d053f5322e4052b229b981986
 
 ---
 
@@ -359,7 +363,11 @@ npm run build
 
 ## 🎉 RÉSULTAT FINAL
 
+<<<<<<< HEAD
 On a maintenant un site web immobilier **complet**, **moderne**, **responsive** et **production-ready** pour DEKKALIMMO!
+=======
+Vous avez maintenant un site web immobilier **complet**, **moderne**, **responsive** et **production-ready** pour DEKKALIMMO!
+>>>>>>> 35505e9c07aca72d053f5322e4052b229b981986
 
 ### Ce qu'il manque:
 - ❌ Node.js (à télécharger)
