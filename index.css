@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Geom', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gravitas One', sans-serif;
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-orange-500 text-white rounded font-medium hover:bg-orange-600 transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-white text-black border border-gray-300 rounded font-medium hover:bg-gray-50 transition-colors;
+  }
+  
+  .section-title {
+    @apply text-3xl font-bold mb-8 text-center;
+  }
+  
+  .nav-link {
+    @apply text-sm font-medium cursor-pointer hover:text-primary transition-colors;
+  }
+}
