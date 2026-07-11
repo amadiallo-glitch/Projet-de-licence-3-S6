@@ -1,0 +1,83 @@
+# DEKKALIMMO - Agence Immobilière Website
+
+Un site web moderne et responsive pour l'agence immobilière DEKKALIMMO au Sénégal.
+
+## 🚀 Technologies
+
+- **React 18** - UI Framework
+- **TypeScript** - Type Safety
+- **Tailwind CSS** - Styling
+- **Vite** - Build Tool
+- **Figma Design** - Design System
+
+## 📁 Structure du Projet
+
+```
+src/
+├── components/
+│   ├── Header.tsx         # Navigation header
+│   ├── Hero.tsx           # Hero section with background
+│   ├── SearchSection.tsx  # Property search filters
+│   ├── PropertyCards.tsx  # Featured properties
+│   ├── Services.tsx       # Service offerings
+│   ├── Testimonials.tsx   # Client logos
+│   ├── CTA.tsx            # Call to action
+│   └── Footer.tsx         # Footer with links
+├── App.tsx               # Main app component
+├── main.tsx              # Entry point
+└── index.css             # Tailwind styles
+
+public/                    # Static files
+index.html                 # Main HTML file
+```
+
+## 🛠️ Installation
+
+1. **Installer les dépendances**
+```bash
+npm install
+```
+
+2. **Lancer le serveur de développement**
+```bash
+npm run dev
+```
+
+Le site ouvrira automatiquement sur `http://localhost:5173`
+
+## 🏗️ Build pour la production
+
+```bash
+npm run build
+npm run preview
+```
+
+## 📋 Fonctionnalités
+
+✅ Navigation responsive
+✅ Hero section avec image
+✅ Recherche de propriétés avec filtres
+✅ Cartes de propriétés featured
+✅ Services et avantages
+✅ Logos des clients partenaires
+✅ CTA (Call To Action)
+✅ Footer complet avec liens
+✅ Design responsive (Mobile, Tablet, Desktop)
+
+## 🎨 Couleurs
+
+- **Primaire**: #b2752a (Orange/Beige)
+- **Succès**: #14ae5c (Vert)
+- **Avertissement**: #bf6a02 (Orange foncé)
+- **Info**: #2b51e8 (Bleu)
+- **Dark**: #050621 (Noir profond)
+
+## 📝 Notes
+
+- Les images viennent de l'API Figma et sont temporaires (7 jours)
+- Les fonts (Geom, Gravitas One) sont chargées via Google Fonts
+- Le design est entièrement responsive et mobile-first
+
+## 👨‍💼 Author
+
+Créé pour DEKKALIMMO - Agence Immobilière au Sénégal
